@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preços - Wime</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho (Igual ao do index.html) -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">⚽</span>
+      <span class="logo-text">Wime</span>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="recursos.html">Recursos</a>
+        <a href="precos.html">Preços</a> <!-- Padronizado para precos.html -->
+      </nav>
+      <div class="nav-actions">
+        <button class="btn-outline" id="btn-contato">Contato</button>
+        <button class="btn-primary" id="btn-experimente">Experimente</button>
+      </div>
+  </header>
+
+  <main class="page-container">
+    <div class="section-header">
+      <h2>Planos Simples e Transparentes</h2>
+      <p>Escolha o plano ideal para o tamanho do seu projeto.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Card Básico -->
+      <div class="pricing-card">
+        <h3>Básico</h3>
+        <div class="price"><span>R$</span>0<span>/mês</span></div>
+        <ul class="pricing-features">
+          <li>✓ Até 3 projetos</li>
+          <li>✓ Suporte comunitário</li>
+          <li>✓ Funcionalidades básicas</li>
+        </ul>
+        <button class="btn-outline w-100" onclick="window.location.href='cadastro.html'">Começar Grátis</button>
+      </div>
+
+      <!-- Card Pro (Destaque) -->
+      <div class="pricing-card popular">
+        <div class="popular-badge">Mais escolhido</div>
+        <h3>Profissional</h3>
+        <div class="price"><span>R$</span>49<span>/mês</span></div>
+        <ul class="pricing-features">
+          <li>✓ Projetos ilimitados</li>
+          <li>✓ Suporte prioritário 24/7</li>
+          <li>✓ Relatórios avançados</li>
+        </ul>
+        <button class="btn-primary w-100" onclick="window.location.href='cadastro.html'">Assinar Pro</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
